@@ -1,10 +1,11 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from "react"
+import { CgWorkAlt } from "react-icons/cg"
+import { LuFileSpreadsheet } from "react-icons/lu"
+import { MdForklift } from "react-icons/md"
+import { LuGraduationCap } from "react-icons/lu"
+import corpcommentImg from "@/public/corpcomment.png"
+import rmtdevImg from "@/public/rmtdev.png"
+import wordanalyticsImg from "@/public/wordanalytics.png"
 
 export const links = [
   {
@@ -35,29 +36,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Nashville Software School",
+    location: "Nashville, TN (Remote)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program executed in a simulated company environment with Scrum methodology.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Operations Supervisor II",
+    location: "Goodlettsville, TN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Led the perishable outbound department, overseeing a team of selectors, forklift operators, loaders, sanitation crew, and entry-level supervisors",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Operations Supervisor I",
+    location: "Goodlettsville, TN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Effectively supervised a team of outbound loaders, ensuring the precise loading of trucks while consistently meeting the company's stringent safety and production standards.",
+    icon: React.createElement(LuFileSpreadsheet),
+    date: "2015 - 2018",
   },
+  {
+    title: "Warehouse Selector",
+    location: "Goodlettsville, TN",
+    description:
+      "Proficiently operated heavy warehouse equipment, ensuring strict adherence to company production standards",
+    icon: React.createElement(MdForklift),
+    date: "2010 - 2015",
+  }
 ] as const;
 
 export const projectsData = [
@@ -85,23 +94,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "JavaScript",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
+  "JSON server",
+  "SQLite",
+  "TypeScript",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Next.js",
+  "C#",
+  ".NET",
+  "PostgreSQL",
+  "RESTful APIs",
+  "Git",
+  "Postman"
 ] as const;

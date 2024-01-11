@@ -45,7 +45,8 @@ export default function Header() {
                                             type: "spring",
                                             stiffness: 380,
                                             damping: 30,
-                                        }}></motion.span>
+                                        }}>
+                                    </motion.span>
                                 )}
                             </Link>
                         </motion.li>

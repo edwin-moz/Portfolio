@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Nashville Software School",
     location: "Nashville, TN (Remote)",
     description:
-      "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program executed in a simulated company environment with Scrum methodology.",
+      "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program is executed in a simulated company environment with Scrum methodology.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Operations Supervisor II",
     location: "Goodlettsville, TN",
     description:
-      "Led the perishable outbound department, overseeing a team of selectors, forklift operators, loaders, sanitation crew, and entry-level supervisors",
+      "Led the perishable outbound department, overseeing a team of selectors, forklift operators, loaders, sanitation crew, and entry-level supervisors.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2023",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Warehouse Selector",
     location: "Goodlettsville, TN",
     description:
-      "Proficiently operated heavy warehouse equipment, ensuring strict adherence to company production standards",
+      "Proficiently operated heavy warehouse equipment, ensuring strict adherence to company production standards.",
     icon: React.createElement(MdForklift),
     date: "2010 - 2015",
   }

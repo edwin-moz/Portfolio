@@ -30,7 +30,7 @@ export default function Intro() {
             </div>
             <motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5] sm:text-4xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
                 <p>
-                    Hello, my name is Edwin. I am a junior web developer from Nashville, TN. My current strengths are React, C#, and .NET. My goal is to become versatile in other language and frameworks like the ones that were used to make this portfolio (Next.js and Typescript).
+                    Hello, my name is Edwin. I am a junior web developer from Nashville, TN. My current strengths are React, C#, and .NET. My goal is to become versatile in other languages and frameworks like the ones that were used to make this portfolio (Next.js and Typescript).
                 </p>
             </motion.h1>
             <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>

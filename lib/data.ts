@@ -4,6 +4,7 @@ import { LuFileSpreadsheet } from "react-icons/lu"
 import { MdForklift } from "react-icons/md"
 import { LuGraduationCap } from "react-icons/lu"
 import rmtdevImg from "@/public/rmtdev.png"
+import storedash from "@/public/storedash.png"
 import wordanalyticsImg from "@/public/wordanalytics.png"
 import educationconnect from "@/public/educationconnect.png"
 
@@ -77,13 +78,13 @@ export const projectsData = [
     tags: ["Javascript", "HTML", "Tailwind", "React", "json"],
     imageUrl: educationconnect,
   },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
+  {
+    title: "StoreDash",
+    description:
+      "The app aims to illustrate the relationship between stores and distributors, emphasizing the ordering process and using a modern ordering system.",
+    tags: ["React", "C#", ".NET", "Tailwind", "PostgreSQL"],
+    imageUrl: storedash,
+  },
   // {
   //   title: "Word Analytics",
   //   description:

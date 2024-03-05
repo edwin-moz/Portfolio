@@ -7,6 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png"
 import storedash from "@/public/storedash.png"
 import wordanalyticsImg from "@/public/wordanalytics.png"
 import educationconnect from "@/public/educationconnect.png"
+import smileyscounter from "@/public/smileyscounter.png"
 
 export const links = [
   {
@@ -33,7 +34,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const
 
 export const experiencesData = [
   {
@@ -67,8 +68,8 @@ export const experiencesData = [
       "Proficiently operated heavy warehouse equipment, ensuring strict adherence to company production standards.",
     icon: React.createElement(MdForklift),
     date: "2010 - 2015",
-  }
-] as const;
+  },
+] as const
 
 export const projectsData = [
   {
@@ -79,11 +80,17 @@ export const projectsData = [
     imageUrl: educationconnect,
   },
   {
-    title: "StoreDash",
+    title: "Store Dash",
     description:
       "The app aims to illustrate the relationship between stores and distributors, emphasizing the ordering process and using a modern ordering system.",
     tags: ["React", "C#", ".NET", "Tailwind", "PostgreSQL"],
     imageUrl: storedash,
+  },
+  {
+    title: "Smiley's Counter",
+    description: "A very simple counter app that counts from 1 - 50. ",
+    tags: ["Vite", "HTML", "CSS"],
+    imageUrl: smileyscounter,
   },
   // {
   //   title: "Word Analytics",
@@ -92,7 +99,7 @@ export const projectsData = [
   //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
   //   imageUrl: wordanalyticsImg,
   // },
-] as const;
+] as const
 
 export const skillsData = [
   "JavaScript",
@@ -110,5 +117,5 @@ export const skillsData = [
   "PostgreSQL",
   "RESTful APIs",
   "Git",
-  "Postman"
-] as const;
+  "Postman",
+] as const

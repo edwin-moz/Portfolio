@@ -8,6 +8,7 @@ import storedash from "@/public/storedash.png"
 import wordanalyticsImg from "@/public/wordanalytics.png"
 import educationconnect from "@/public/educationconnect.png"
 import smileyscounter from "@/public/smileyscounter.png"
+import smileystrackbag from "@/public/smileystrackbag.png"
 
 export const links = [
   {
@@ -73,13 +74,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Education Connect",
-    description:
-      "After 3 months at NSS I was able to comeplete my first project. This app helps homeschool parents keep track of assignments.",
-    tags: ["Javascript", "HTML", "Tailwind", "React", "json"],
-    imageUrl: educationconnect,
-  },
-  {
     title: "Store Dash",
     description:
       "The app aims to illustrate the relationship between stores and distributors, emphasizing the ordering process and using a modern ordering system.",
@@ -88,9 +82,23 @@ export const projectsData = [
   },
   {
     title: "Smiley's Counter",
-    description: "A very simple counter app that counts from 1 - 50. ",
+    description: "A simple counter app that counts from 1 - 50.",
     tags: ["Vite", "HTML", "CSS"],
     imageUrl: smileyscounter,
+  },
+  {
+    title: "Smiley's Trackbag",
+    description:
+      "An application to keep track of our travel items. This application uses our browser's local storage to keep track of our items!",
+    tags: ["Vite", "HTML", "CSS"],
+    imageUrl: smileystrackbag,
+  },
+  {
+    title: "Education Connect",
+    description:
+      "After 3 months at NSS I was able to comeplete my first project. This app helps homeschool parents keep track of assignments.",
+    tags: ["Javascript", "HTML", "Tailwind", "React", "json"],
+    imageUrl: educationconnect,
   },
   // {
   //   title: "Word Analytics",

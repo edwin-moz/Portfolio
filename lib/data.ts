@@ -9,6 +9,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png"
 import educationconnect from "@/public/educationconnect.png"
 import smileyscounter from "@/public/smileyscounter.png"
 import smileystrackbag from "@/public/smileystrackbag.png"
+import corpcomment from "@/public/corpcomment.png"
 
 export const links = [
   {
@@ -40,7 +41,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Nashville Software School",
-    location: "Nashville, TN (Remote)",
+    location: "Remote",
     description:
       "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program is executed in a simulated company environment with Scrum methodology.",
     icon: React.createElement(LuGraduationCap),
@@ -74,39 +75,52 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Store Dash",
     description:
       "The app aims to illustrate the relationship between stores and distributors, emphasizing the ordering process and using a modern ordering system.",
-    tags: ["React", "C#", ".NET", "Tailwind", "PostgreSQL"],
     imageUrl: storedash,
+    link: "",
+    tags: ["React", "C#", ".NET", "Tailwind", "PostgreSQL"],
+    title: "Store Dash",
   },
   {
-    title: "Smiley's Counter",
     description: "A simple counter app that counts from 1 - 50.",
-    tags: ["Vite", "HTML", "CSS"],
     imageUrl: smileyscounter,
+    link: "https://smileys-counter.vercel.app/",
+    tags: ["React", "Vite", "HTML", "CSS"],
+    title: "Smiley's Counter",
   },
   {
-    title: "Smiley's Trackbag",
     description:
       "An application to keep track of our travel items. This application uses our browser's local storage to keep track of our items!",
-    tags: ["Vite", "HTML", "CSS"],
     imageUrl: smileystrackbag,
+    link: "https://smileys-trackbag.vercel.app/",
+    tags: ["React", "Vite", "HTML", "CSS"],
+    title: "Smiley's Trackbag",
   },
   {
-    title: "Education Connect",
     description:
-      "After 3 months at NSS I was able to comeplete my first project. This app helps homeschool parents keep track of assignments.",
-    tags: ["Javascript", "HTML", "Tailwind", "React", "json"],
-    imageUrl: educationconnect,
+      "This application allows the user to post comments about a company to a public API.",
+    imageUrl: corpcomment,
+    link: "https://smileys-corp-comment.vercel.app/",
+    tags: ["React", "Vite", "HTML", "CSS"],
+    title: "Smiley's CorpComment",
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    description:
+      "A simple web application for quick analytics on text. It shows word count, character count and social media post limits.",
+    imageUrl: wordanalyticsImg,
+    link: "https://smileys-word-analytics.vercel.app/",
+    tags: ["React", "Vite", "HTML", "CSS"],
+    title: "Smiley's WordAnalytics",
+  },
+  {
+    description:
+      "After 3 months at NSS I was able to complete my first project. This app helps homeschool parents keep track of assignments.",
+    imageUrl: educationconnect,
+    link: "",
+    tags: ["Javascript", "HTML", "Tailwind", "React", "json"],
+    title: "Education Connect",
+  },
 ] as const
 
 export const skillsData = [
@@ -114,16 +128,17 @@ export const skillsData = [
   "HTML",
   "CSS",
   "React",
-  "JSON server",
+  "JSON",
   "SQLite",
   "TypeScript",
-  "Tailwind",
+  "TailwindCSS",
   "Framer Motion",
   "Next.js",
+  "Vite",
   "C#",
   ".NET",
   "PostgreSQL",
-  "RESTful APIs",
   "Git",
+  "Github",
   "Postman",
 ] as const

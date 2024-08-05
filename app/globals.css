@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 html {
-    --line-color: #e5e7eb
+  --line-color: #e5e7eb;
 }
 
 html.dark {
-    --line-color: rgba(255, 255, 255, 0.2)
+  --line-color: rgba(255, 255, 255, 0.2);
 }
 
 .borderBlack {
-    @apply border border-black/10
+  @apply border border-black/10;
+}
+
+.count-btn-icon {
+  @apply h-[40px] opacity-90 text-[#bdfe00] w-[40px];
 }

@@ -3,6 +3,7 @@
 import SectionHeading from "./section-heading"
 import { motion } from "framer-motion"
 import { useSectionInView } from "@/lib/hooks"
+import { aboutMe } from "@/lib/data"
 
 export default function About() {
   const { ref } = useSectionInView("About", 0.5)
@@ -17,14 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className="mb-3">
-        I am a self-motivated person who enjoys coding, problem-solving, and
-        collaborating with others. I have always been passionate about my work
-        and my hobbies. My interest in technology and the use of excel and its
-        functions is what led me to learn coding. With the desire to enhance my
-        skills and the guidance from NSS, I am proud of the projects that I have
-        completed.
-      </p>
+      <p className="mb-3">{aboutMe}</p>
     </motion.section>
   )
 }

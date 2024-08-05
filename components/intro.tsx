@@ -59,12 +59,11 @@ export default function Intro() {
         transition={{ delay: 0.1 }}
       >
         <p>
-          Hello, my name is <span className="font-bold">Edwin Moz</span>. I am a{" "}
-          <span className="font-bold">Software Developer</span> from Nashville,
-          TN. My strengths lie in{" "}
-          <span className="font-bold">React, C#, and .NET</span>. I aim to
-          become versatile in other languages and frameworks, such as those used
-          to create this portfolio (TypeScript and Next.js).
+          Hello! I'm <span className="font-bold">Edwin Moz</span> an adaptive
+          full-stack <span className="font-bold">Software Developer</span> from
+          Nashville, TN. With an expertise in{" "}
+          <span className="font-bold">React, C#, and .NET</span>, I thrive on
+          embracing change and tackling new challenges head-on!
         </p>
       </motion.h1>
       <motion.div

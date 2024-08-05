@@ -11,6 +11,9 @@ import smileyscounter from "@/public/smileyscounter.png"
 import smileystrackbag from "@/public/smileystrackbag.png"
 import corpcomment from "@/public/corpcomment.png"
 
+export const aboutMe =
+  "I am a self-motivated person who enjoys problem-solving and collaboration. I have always been passionate about technology, my work, and my hobbies, but my burning desire to learn software development began when I began to use Excel and its functions."
+
 export const links = [
   {
     name: "Home",
@@ -43,7 +46,7 @@ export const experiencesData = [
     title: "Nashville Software School",
     location: "Remote",
     description:
-      "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program is executed in a simulated company environment with Scrum methodology.",
+      "Intensive full-time software development bootcamp focusing on full stack development fundamentals and problem solving. The final half of the program executed in a simulated company environment with Scrum methodology.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
@@ -76,17 +79,18 @@ export const experiencesData = [
 export const projectsData = [
   {
     description:
-      "The app aims to illustrate the relationship between stores and distributors, emphasizing the ordering process and using a modern ordering system.",
+      "My final capstone at NSS is a full-stack app built from the ground up using Fetch, Framer Motion, React Router, and OpenAI API on the frontend, with ASP.NET Core Identity, EF Core, Swagger, and User Secrets on the backend.",
     imageUrl: storedash,
     link: "",
     tags: ["React", "C#", ".NET", "Tailwind", "PostgreSQL"],
     title: "Store Dash",
   },
   {
-    description: "A simple counter app that counts from 1 - 50.",
+    description:
+      "An app created in Nextjs that uses custom hooks, custom event listeners and React's Context API.",
     imageUrl: smileyscounter,
-    link: "https://smileys-counter.vercel.app/",
-    tags: ["React", "Vite", "HTML", "CSS"],
+    link: "/counter",
+    tags: ["React", "Nextjs", "Tailwind"],
     title: "Smiley's Counter",
   },
   {
@@ -94,7 +98,7 @@ export const projectsData = [
       "An application to keep track of our travel items. This application uses our browser's local storage to keep track of our items!",
     imageUrl: smileystrackbag,
     link: "https://smileys-trackbag.vercel.app/",
-    tags: ["React", "Vite", "HTML", "CSS"],
+    tags: ["React", "Nextjs", "ContextAPI", "CSS"],
     title: "Smiley's Trackbag",
   },
   {
@@ -107,11 +111,11 @@ export const projectsData = [
   },
   {
     description:
-      "A simple web application for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Created in Nextjs, this app uses custom hooks and React's Context API.",
     imageUrl: wordanalyticsImg,
-    link: "https://smileys-word-analytics.vercel.app/",
-    tags: ["React", "Vite", "HTML", "CSS"],
-    title: "Smiley's WordAnalytics",
+    link: "/word-analytics",
+    tags: ["React", "Nextjs", "Tailwind"],
+    title: "Word Analytics",
   },
   {
     description:
@@ -125,18 +129,15 @@ export const projectsData = [
 
 export const skillsData = [
   "JavaScript",
-  "HTML",
-  "CSS",
-  "React",
-  "JSON",
-  "SQLite",
   "TypeScript",
   "TailwindCSS",
-  "Framer Motion",
+  "React",
   "Next.js",
-  "Vite",
   "C#",
-  ".NET",
+  ".NET6/8",
+  "Python",
+  "Django",
+  "SQLite",
   "PostgreSQL",
   "Git",
   "Github",

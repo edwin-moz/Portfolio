@@ -12,7 +12,7 @@ import smileystrackbag from "@/public/smileystrackbag.png"
 import corpcomment from "@/public/corpcomment.png"
 
 export const aboutMe =
-  "I am a self-motivated person who enjoys problem-solving and collaboration. I have always been passionate about technology, my work, and my hobbies, but my burning desire to learn software development began when I began to use Excel and its functions."
+  "I am a self-motivated person who enjoys problem-solving and collaboration. I have always been passionate about technology, my work, and my hobbies, but my burning desire to learn software development began when I began to use Excel and its' functions."
 
 export const links = [
   {

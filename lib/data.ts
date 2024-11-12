@@ -75,6 +75,8 @@ export const experiencesData = [
     },
 ] as const
 
+export const personalEmail = "edwin.moz.dev@outlook.com" as const
+
 export const projectsData = [
     {
         description:
